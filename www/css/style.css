@@ -1,0 +1,656 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding:0;
+	height:100%;
+	width:100%;
+	position: absolute;
+	
+}
+/* Заголовок(heading)*/
+#header1{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	z-index:2000;
+	width:100%;
+	height:250px;
+	background:url(../images/header.gif);
+}
+#logo img{
+	width:120%;
+}
+#logo{
+	position:absolute;
+	padding-left:5%;
+}
+ a {
+text-decoration: none;
+color:#BCFBAC;
+}
+#active{
+	background-color:#EB653C;
+}
+
+
+div.navigation ul {
+		padding:0%;
+	    margin:0%;
+		float:right;
+		padding-top:200px;
+		color: #BCFBAC;
+	    font: 30px Arial, Helvetica, sans-serif;
+}
+div.navigation ul ol {
+	padding:0%;
+	margin:0%;
+	box-shadow:0 0 7px rgba(225,210,4,0.9);
+	display: inline; /* Отображать как строчный элемент */
+    margin-right:50px; /* Отступ слева */
+    border: 2px dashed #000; /* Рамка вокруг текста */
+    padding: 6px; /* Поля вокруг текста */
+	border-radius:10px;
+}
+
+div.lang ul {
+		padding:0%;
+		position:absolute;
+	    margin:1%;
+		margin-left:87%;
+		padding-top:20px;
+		color: #BCFBAC;
+	    font: 15px Arial, Helvetica, sans-serif;
+}
+div.lang ul ol {
+	padding:0%;
+	margin:0%;
+	 box-shadow:0 0  8px rgba(49,27,68,0.9);
+	display: inline;
+    margin-right:0px;
+    border: 2px solid #000; 
+    padding: 6px;  
+	
+}
+
+/*Конец заголовка(heading)*/
+
+/*Тело сайта(Body site)*/
+#bodyf{
+	background-image:url(../images/fon.png);
+	min-height:100%;
+	max-height:auto;
+   padding-top:2%;
+   padding-bottom:2%;
+   margin:0;
+   position:relative;
+}
+#entry{
+	width:25%;
+	margin-top:3%;
+	margin-left:6%;
+	float:left;
+	 }
+#entry1{
+	border: 2px solid #000;
+	border-top:none;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	 }	 
+	 
+#vx{
+	display: block;
+	text-align:center;
+    color: #BCFBAC;
+	border: 2px solid #000; 
+	font: 25px Alexander, Helvetica, sans-serif;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	background:url(../images/header.gif);
+	}
+.vx1{
+	margin-left:5%;
+	font: 20px Alexander, Helvetica, sans-serif;
+}
+.vx2{
+	margin:5%;
+	width:75%;
+	box-shadow:0 0  8px rgba(49,27,68,0.9);
+}
+.vx3{
+	margin-left:7%;
+	margin-top:3%;
+	margin-bottom:4%;
+	font: 17px Alexander, Helvetica, sans-serif;
+	box-shadow:0 0  8px rgba(49,27,68,0.9);
+}
+#content{
+	margin-top:2%;
+	margin-left:10%;
+	width:50%;
+	display:inline-block;
+	margin-bottom:2%;
+	
+	
+}
+#con1{
+	display:block;
+	text-align:center;
+	font: 50px Beermoney, Helvetica, sans-serif;
+}
+
+#con2{
+	font: 30px Beermoney, Helvetica, sans-serif;
+	
+}
+
+#footer{
+	margin:0;
+	text-align:center;
+	width:100%;
+	background:url(../images/header.gif);
+}
+#footer a {
+    text-decoration:underline;
+	color:blue;
+	}
+#Register {
+	display:block;
+	width:43%;
+	height:100%;
+	margin: auto;
+	}
+.fri
+{
+	padding:0;
+	margin:0;
+	margin-top:2%;
+	margin-left:3%;
+	display:inline-block;
+	text-align:center;
+}
+#gender1{
+	display: inline-block;
+	margin:0;
+	margin-left:10%;
+	margin-bottom:1%;
+	
+}
+.fontreg{
+	    font: 20px Alexander, Helvetica, sans-serif;
+		margin-left:5%;
+}
+.reg1{
+	width:60%;
+	margin:2%;
+	margin-left:5%;
+	border-radius:5px;
+	outline:none;
+}
+#rg2{
+	display:block;
+	margin:auto;
+	margin-top:4%;
+	margin-bottom:4%;
+	font: 17px Alexander, Helvetica, sans-serif;
+	box-shadow:0 0  8px rgba(49,27,68,0.9);
+}
+#contakt{
+	width:40%;
+	margin-top:1%;
+	margin-left:4%;
+	margin-right:%;
+	float:left;
+	
+}
+#email {
+	width:43%;
+	height:100%;
+	display:inline-block;
+	margin-left: 8%;
+	margin-top:1%;
+	}
+#email1{
+	border: 2px solid #000;
+	border-top:none;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	text-align:center;
+	 }
+.em1{
+	width:70%;
+	margin:2%;
+	border-radius:5px;
+	outline:none;
+}
+.em2{
+	width:70%;
+	height:80px;
+	margin:2%;
+	border-radius:5px;
+	outline:none;
+}	
+#imemail{
+	width:100%;
+}	 
+	 	
+
+@font-face {
+    font-family:Alexander; 
+    src: url(../font/alexander.ttf); 
+   }
+@font-face {
+	font-family:Beermoney; 
+    src: url(../font/beer_money.ttf);
+}
+
+#hide{
+display:block;
+width:43%;
+	height:100%;
+	margin: auto;
+}
+#nohide{
+display:none;
+width:43%;
+	height:100%;
+	margin: auto;
+}
+.fontregeror{
+	    font: 20px Alexander, Helvetica, sans-serif;
+		color: red;
+		margin-left:5%;
+}
+.fontregss{
+	    font: 1.5em Alexander, Helvetica, sans-serif;
+}
+#ikon{
+display:inline-block;
+margin-right:3%;
+}
+#ikon p{
+text-align:center;
+margin:0;
+font: 1.5em Alexander, Helvetica, sans-serif;
+}
+.table_blur {
+  background: #f5ffff;
+  border-collapse: collapse;
+  text-align: center;
+ margin:auto;
+}
+.table_blur th {
+  border-top: 1px solid #777777;	
+  border-bottom: 1px solid #777777; 
+  box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+  background: linear-gradient(#9595b6, #5a567f);
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+}
+.table_blur th:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 25%;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
+}
+.table_blur tr:nth-child(odd) {
+  background: #ebf3f9;
+}
+.table_blur th:first-child {
+  border-left: 1px solid #777777;	
+  border-bottom:  1px solid #777777;
+  box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur th:last-child {
+  border-right: 1px solid #777777;
+  border-bottom:  1px solid #777777;
+  box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+  text-align:center;
+}
+
+
+a.button24 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+} 
+a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+#bodyf a.button7{
+margin-bottom:1.5%;
+width: 10%;
+text-align:center;
+}
+a.button7 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+} 
+a.button7:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button7:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+#profileimg img {
+padding-bottom: 6%;
+padding-left: 3%;
+}
+.curled {
+    position:relative;
+    width:50%;
+	min-height:90%;
+	max-height:auto;
+    padding:1em;
+    margin:auto;
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border:1px solid #efefef;
+    -moz-border-radius:0 0 120px 120px / 0 0 6px 6px;
+         border-radius:0 0 120px 120px / 0 0 6px 6px;
+}
+       
+.curled:before,
+.curled:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+    bottom:12px;
+    left:10px;
+    width:50%;
+    height:55%;
+    max-width:200px;
+    -webkit-box-shadow:0 8px 12px rgba(0, 0, 0, 0.5);
+       -moz-box-shadow:0 8px 12px rgba(0, 0, 0, 0.5);
+            box-shadow:0 8px 12px rgba(0, 0, 0, 0.5);
+     -webkit-transform:skew(-8deg) rotate(-3deg);
+        -moz-transform:skew(-8deg) rotate(-3deg);
+         -ms-transform:skew(-8deg) rotate(-3deg);
+          -o-transform:skew(-8deg) rotate(-3deg);
+             transform:skew(-8deg) rotate(-3deg);
+} 
+       
+.curled:after {
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+        }
+.curled p {
+    font-size:16px;
+    font-weight:bold;
+}  
+
+#ikon1{
+margin:4%;
+display:inline-block;
+}      
+
+#profiletext{
+     padding:2%;
+   box-shadow: 0 0 10px rgba(79, 148, 205,0.9);
+    font: 18px Beermoney, Helvetica, sans-serif;
+    border-radius: 10px;
+	margin-bottom:1%;
+}
+#dialog{
+ 
+  width:50%;
+  margin:auto;
+}
+#fontdialog{
+    font: 15px Beermoney, Helvetica, sans-serif;
+}
+
+/*Оптимизация заголовка(heading)*/
+@media (max-width:1100px){
+div.lang ul 
+{		margin-left:80%;
+          }
+#con2{
+	font: 25px Beermoney, Helvetica, sans-serif;
+}
+	
+}
+@media (max-width:800px){
+
+
+#Register {
+	width:60%;
+	
+}
+}
+@media (max-width:900px){
+
+
+#Register {
+	width:55%;
+	
+}	
+	
+}
+@media (max-width:1220px){
+div.lang ul 
+{		margin-left:80%;
+          }
+}	
+
+@media (max-width:768px){
+div.lang ul 
+{		margin-left:75%;
+          }
+#logo img{
+	width:90%;
+	padding-top:5%;
+}
+#vx{
+	font: 20px Alexander, Helvetica, sans-serif;
+	}	
+.vx3{
+	margin-left:4%;
+	font: 15px Alexander, Helvetica, sans-serif;
+	
+}
+#con1{
+	font: 40px Beermoney, Helvetica, sans-serif;
+}
+#con2{
+	font: 20px Beermoney, Helvetica, sans-serif;
+}
+
+#Register {
+	width:70%;
+	
+}
+#bodyf{
+	
+   padding-top:5%;
+   padding-bottom:2%;
+ 
+}	  
+}	
+@media (max-width:600px){
+div.lang ul 
+{		margin-left:75%;
+          }
+#logo img{
+	width:100%;
+	padding-top:5%;
+}
+#vx{
+	font: 17px Alexander, Helvetica, sans-serif;
+	}	
+.vx3{
+	margin-left:4%;
+	font: 15px Alexander, Helvetica, sans-serif;
+	
+}
+#con1{
+	font: 40px Beermoney, Helvetica, sans-serif;
+}
+#con2{
+	font: 15px Beermoney, Helvetica, sans-serif;
+}
+	  
+}	
+@media (max-width:480px){
+div.navigation ul {
+	    font: 15px Arial, Helvetica, sans-serif;
+}
+div.lang ul 
+{		margin-left:70%;
+       font: 10px Arial, Helvetica, sans-serif;
+          }
+div.navigation ul ol {
+    margin-right:5px; /* Отступ слева */
+    border: 6px dashed #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+	
+#logo img{
+	width:60%;
+	padding-top:15%;
+}
+#vx{
+	font: 18px Alexander, Helvetica, sans-serif;
+	}
+#con1{
+	display:block;
+	text-align:center;
+	font: 18px Beermoney, Helvetica, sans-serif;
+}
+#con2{
+	font: 15px Beermoney, Helvetica, sans-serif;
+}
+
+#Register {
+	width:89%;
+}
+.reg1{
+	width:70%;
+}
+
+
+@media (max-width:320px){
+div.navigation ul {
+	    font: 15px Arial, Helvetica, sans-serif;
+}
+div.lang ul 
+{		margin-left:70%;
+       font: 8px Arial, Helvetica, sans-serif;
+          }
+div.navigation ul ol {
+    margin-right:5px; /* Отступ слева */
+    border: 6px dashed #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+	
+
+div.lang ul 
+{		margin-left:60%;
+          }
+#logo img{
+	width:70%;
+	padding-top:20%;
+}
+#vx{
+	font: 8px Alexander, Helvetica, sans-serif;
+	}
+#con1{
+	display:block;
+	text-align:center;
+	font: 18px Beermoney, Helvetica, sans-serif;
+}
+#con2{
+	font: 15px Beermoney, Helvetica, sans-serif;
+}
+
+#Register {
+	width:65%;
+}
+.reg1{
+	width:90%;
+}
+}
+@media (max-width:240px){
+body{
+	width:150%;
+	height:145%;
+}
+.reg1{
+	width:90%;
+}
+div.navigation ul {
+	    font: 20px Arial, Helvetica, sans-serif;
+}
+div.navigation ul ol {
+    margin-right:1px; /* Отступ слева */
+    border: 2px dashed #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+	}
+div.lang ul 
+{		margin-left:65%;
+       font: 10px Arial, Helvetica, sans-serif;
+          }
+#logo img{
+	width:90%;
+	padding-top:12%;
+}
+#vx{
+	font: 8px Alexander, Helvetica, sans-serif;
+	}
+#con1{
+	display:block;
+	text-align:center;
+	font: 20px Beermoney, Helvetica, sans-serif;
+}
+#con2{
+	font: 10px Beermoney, Helvetica, sans-serif;
+}
+.vx3{
+	margin-left:4%;
+	font: 8px Alexander, Helvetica, sans-serif;
+	
+}
+
+				  
+}
+/*Конец оптимизации заголовка(heading)*/
+@font-face {
+    font-family:Alexander; 
+    src: url(../font/alexander.ttf); 
+   }
+@font-face {
+	font-family:Beermoney; 
+    src: url(../font/beer_money.ttf);
+}
